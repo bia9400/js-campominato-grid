@@ -11,12 +11,26 @@ main{
     justify-content: center;
     align-items: center;
     background-color: #7cffd2;
-    height: calc(100vh - 130px);
+    height: 80vh;
 }
 .grid-container{
-    border: 1px solid black;
+    width: 501px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;  
+    flex-wrap: wrap;
+    margin: auto;
 }
 .add-color-onClick{
-    background-color: #6495f1;
+    background-color: #6495f1; 
     color: white;
+}
+.number-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    aspect-ratio: 1;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
