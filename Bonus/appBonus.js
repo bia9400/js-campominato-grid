@@ -6,22 +6,28 @@ let numeroOrizontale;
 
 
 playButton.addEventListener("click", function () {
+    createGrid(0)
 const difficolta = parseInt(selectDifficult.value);
-    
+gridContainerBonus.style.width="0";
     console.log(difficolta);
     if(difficolta==0){
-        numeroOrizontale=0
-        
+        numeroOrizontale=0;
+        gridContainerBonus.style.width="0";
     }
     else if(difficolta==1){
         numeroOrizontale=10
-        
+        let x=numeroOrizontale*70 +1
+        gridContainerBonus.style.width=`${x}px`
     }
     else if(difficolta==2){
         numeroOrizontale=9
+        let x=numeroOrizontale*70 +1
+        gridContainerBonus.style.width=`${x}px`
     }
     else if(difficolta==3){
         numeroOrizontale=7
+        let x=numeroOrizontale*70 +1
+        gridContainerBonus.style.width=`${x}px`
     }
 
 
@@ -30,9 +36,7 @@ const difficolta = parseInt(selectDifficult.value);
         
         console.log(numeroOrizontale);
         const numeroTotale = numeroOrizontale * numeroOrizontale
-        let classString=`grid-container-${difficolta}`
-        console.log(classString);
-        gridContainerBonus.classList.add(classString)
+        
         
          
         for (let i = 1; i <= numeroTotale; i++) {
