@@ -13,8 +13,32 @@ main{
     background-color: #7cffd2;
     height: 80vh;
 }
-.grid-container{
-    width: 701px;
+.grid-container-0{
+    width: 0px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;  
+    flex-wrap: wrap;
+    margin: auto;
+}
+.grid-container-1{
+    width: 702px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;  
+    flex-wrap: wrap;
+    margin: auto;
+}
+.grid-container-2{
+    width:632px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;  
+    flex-wrap: wrap;
+    margin: auto;
+}
+.grid-container-3{
+    width: 491px;
     border-top: 1px solid black;
     border-left: 1px solid black;
     display: flex;  
