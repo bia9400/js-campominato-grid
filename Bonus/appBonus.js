@@ -6,7 +6,7 @@ let numeroOrizontale;
 
 
 playButton.addEventListener("click", function () {
-    createGrid(0)
+    gridContainerBonus.innerHTML=""
 const difficolta = parseInt(selectDifficult.value);
 gridContainerBonus.style.width="0";
     console.log(difficolta);
