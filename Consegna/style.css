@@ -14,7 +14,7 @@ main{
     height: 80vh;
 }
 .grid-container{
-    width: 501px;
+    width: 701px;
     border-top: 1px solid black;
     border-left: 1px solid black;
     display: flex;  
@@ -29,7 +29,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
+    width: 70px;
     aspect-ratio: 1;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
